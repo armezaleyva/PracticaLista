@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <ListBox x:Name="lstAlumnos" HorizontalAlignment="Left" Height="372" Margin="10,38,0,0" VerticalAlignment="Top" Width="100" SelectionChanged="lstAlumnos_SelectionChanged">
-            
+
         </ListBox>
         <TextBlock HorizontalAlignment="Left" Margin="10,17,0,0" TextWrapping="Wrap" Text="Alumnos" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="135,17,0,0" TextWrapping="Wrap" Text="Nombre:" VerticalAlignment="Top"/>
@@ -17,6 +17,12 @@
         <TextBlock x:Name="lblMatricula" HorizontalAlignment="Left" Margin="135,95,0,0" TextWrapping="Wrap" Text="000000" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="135,130,0,0" TextWrapping="Wrap" Text="Carrera:" VerticalAlignment="Top"/>
         <TextBlock x:Name="lblCarrera" HorizontalAlignment="Left" Margin="135,151,0,0" TextWrapping="Wrap" Text="Nombre de la carrera" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="271,17,0,0" TextWrapping="Wrap" Text="Materias" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="419,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Clave:"/>
+        <TextBlock x:Name="lblClaveMateria" HorizontalAlignment="Left" Margin="419,38,0,0" TextWrapping="Wrap" Text="000000" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="419,82,0,0" TextWrapping="Wrap" Text="Nombre:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="lblNombreMateria" HorizontalAlignment="Left" Margin="419,103,0,0" TextWrapping="Wrap" Text="Materia" VerticalAlignment="Top"/>
+        <ListBox x:Name="lstMaterias" SelectionChanged="lstMaterias_SelectionChanged" HorizontalAlignment="Left" Height="372" Margin="271,38,0,0" VerticalAlignment="Top" Width="132"/>
 
     </Grid>
 </Window>
